@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 
 
+
+
+
+
+
 class Tabs extends Component {
     state = {
         activeIndex: 0,
@@ -81,7 +86,7 @@ class TabPanel extends Component {
 
 ///////////////////
 
-class Books extends Component {
+class CloneElement extends Component {
   render() {
     return (
       <div className="App">
@@ -114,4 +119,4 @@ class Books extends Component {
   }
 }
 
-export default Books;
+export default CloneElement;
