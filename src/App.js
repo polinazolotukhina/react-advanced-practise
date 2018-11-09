@@ -3,6 +3,7 @@ import './App.css';
 import CloneElement from './CloneElement';
 import Context from './Context';
 import Hoc from './ButtonOne';
+import Candy from './Candy';
 
 
 class App extends Component {
@@ -12,9 +13,10 @@ class App extends Component {
     {
         //   <CloneElement />
     //     <Context />
-}   <Hoc disable/>
-    <Hoc />
-    <Hoc  error/>
+    }   <Hoc disable/>
+        <Hoc />
+        <Hoc  error/>
+        <Candy />
       </div>
     );
   }
